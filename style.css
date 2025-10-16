@@ -109,10 +109,13 @@
 
     @media (max-width: 480px) {
       .container {
+         width:95%;
+         max-width:none;
         padding: 1.5rem;
       }
 
       h1 {
         font-size: 1.25rem;
       }
+
     }
