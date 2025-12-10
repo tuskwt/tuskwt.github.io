@@ -22,12 +22,6 @@ const menuData = [
     url: "https://www.smksukawatisragen.sch.id/",
     date: "",
     highlight: false
-  },
-  {
-    title: "Alat PDF Serbaguna (Gambar ke PDF, PDF ke Gambar, Gabung PDF)",
-    url: "https://www.chapteria.com/p/super-pdf-by-chapteria.html",
-    date: "",
-    highlight: false
   }
 ];
 
@@ -88,4 +82,5 @@ function searchMenu() {
 document.addEventListener('DOMContentLoaded', renderMenu);
 
 // Optional: real-time search saat mengetik
+
 document.getElementById('menuSearch').addEventListener('input', searchMenu);
