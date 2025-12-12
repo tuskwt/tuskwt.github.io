@@ -50,6 +50,15 @@ function renderMenu() {
     titleSpan.textContent = item.title;
     contentDiv.appendChild(titleSpan);
 
+    // --- PERBAIKAN DI SINI: Render Subtitle ---
+    if (item.subtitle) {
+      const subtitleSpan = document.createElement('span');
+      subtitleSpan.className = 'menu-subtitle';
+      subtitleSpan.textContent = item.subtitle;
+      contentDiv.appendChild(subtitleSpan);
+    }
+    // ------------------------------------------
+
     if (item.date) {
       const dateSpan = document.createElement('span');
       dateSpan.className = 'menu-date';
@@ -77,8 +86,15 @@ function searchMenu() {
   
   links.forEach(link => {
     const title = link.querySelector('.menu-title').textContent.toLowerCase();
-    if(title.includes(input)) {
-      link.style.display = 'flex'; // Changed to flex to match new styling
+    
+    // --- PERBAIKAN PENCARIAN ---
+    // Cek apakah elemen subtitle ada sebelum mengambil textContent
+    const subtitleEl = link.querySelector('.menu-subtitle');
+    const subtitle = subtitleEl ? subtitleEl.textContent.toLowerCase() : '';
+
+    // Cari di title ATAU subtitle
+    if(title.includes(input) || subtitle.includes(input)) {
+      link.style.display = 'flex'; 
     } else {
       link.style.display = 'none';
     }
@@ -89,6 +105,4 @@ function searchMenu() {
 document.addEventListener('DOMContentLoaded', renderMenu);
 
 // Optional: real-time search saat mengetik
-
 document.getElementById('menuSearch').addEventListener('input', searchMenu);
-
