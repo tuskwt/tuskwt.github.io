@@ -22,6 +22,13 @@ const menuData = [
     url: "https://www.smksukawatisragen.sch.id/",
     date: "",
     highlight: false
+  },
+    {
+    title: "SKWT Label Generator",
+      subtitle: "Alat untuk Mempermudah Pembuatan Label Rapor",
+    url: "https://tuskwt.github.io/quick-labeling",
+    date: "",
+    highlight: false
   }
 ];
 
@@ -84,3 +91,4 @@ document.addEventListener('DOMContentLoaded', renderMenu);
 // Optional: real-time search saat mengetik
 
 document.getElementById('menuSearch').addEventListener('input', searchMenu);
+
