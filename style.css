@@ -1,4 +1,4 @@
-    * {
+* {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
@@ -120,6 +120,14 @@
 
     .menu-title {
       font-size: 1rem;
+    }
+
+    /* --- TAMBAHAN STYLE SUBTITLE --- */
+    .menu-subtitle {
+      font-size: 0.85rem;
+      color: #ffcccc; /* Warna pink muda agar kontras dengan merah */
+      font-weight: 400;
+      margin-top: 0.2rem;
     }
 
     .menu-date {
