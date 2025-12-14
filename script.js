@@ -29,13 +29,6 @@ const menuData = [
     url: "https://tuskwt.github.io/quick-labeling",
     date: "",
     highlight: false
-  },
-      {
-    title: "Super PDF",
-      subtitle: "Alat untuk konversi Gambar ke PDF, PDF ke Gambar, hingga Gabung PDF",
-    url: "https://www.chapteria.com/p/super-pdf-by-chapteria.html",
-    date: "",
-    highlight: false
   }
 ];
 
@@ -113,4 +106,5 @@ document.addEventListener('DOMContentLoaded', renderMenu);
 
 // Optional: real-time search saat mengetik
 document.getElementById('menuSearch').addEventListener('input', searchMenu);
+
 
