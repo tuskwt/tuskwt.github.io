@@ -8,7 +8,7 @@ const menuData = [
   {
     title: "Nominatif Siswa 2025/2026",
     url: "https://drive.google.com/drive/folders/1UV8eQm_BDwwonZ7AdfZy6X_PfCbA0FiF?usp=sharing",
-    date: "16 Desember 2025",
+    date: "29 Desember 2025",
     highlight: true
   },
   {
@@ -106,6 +106,7 @@ document.addEventListener('DOMContentLoaded', renderMenu);
 
 // Optional: real-time search saat mengetik
 document.getElementById('menuSearch').addEventListener('input', searchMenu);
+
 
 
 
