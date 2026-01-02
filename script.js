@@ -2,20 +2,20 @@ const menuData = [
   {
     title: "Daftar Hadir & Nilai 2025/2026",
     url: "https://drive.google.com/drive/folders/129ZqPzdRvNs1fhUUuteT9YVeKaxwG65N?usp=drive_link",
-    date: "26 November 2025",
-    highlight: false
+    date: "2 Januari 2026",
+    highlight: true
   },
   {
     title: "Nominatif Siswa 2025/2026",
     url: "https://drive.google.com/drive/folders/1UV8eQm_BDwwonZ7AdfZy6X_PfCbA0FiF?usp=sharing",
-    date: "29 Desember 2025",
+    date: "2 Januari 2026",
     highlight: true
   },
   {
     title: "Jumlah Siswa 2025/2026",
     url: "https://docs.google.com/spreadsheets/d/1zZZkOCvruRZ0g6kDFDzrcyvE_8qefpqS/edit?usp=sharing&ouid=111283954640949298603&rtpof=true&sd=true",
-    date: "26 November 2025",
-    highlight: false
+    date: "2 Januari 2026",
+    highlight: true
   },
   {
     title: "Situs Web SMK Sukawati Sragen",
@@ -106,6 +106,7 @@ document.addEventListener('DOMContentLoaded', renderMenu);
 
 // Optional: real-time search saat mengetik
 document.getElementById('menuSearch').addEventListener('input', searchMenu);
+
 
 
 
