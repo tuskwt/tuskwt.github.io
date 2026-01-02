@@ -13,7 +13,7 @@ const menuData = [
   },
   {
     title: "Jumlah Siswa 2025/2026",
-    url: "https://docs.google.com/spreadsheets/d/1zZZkOCvruRZ0g6kDFDzrcyvE_8qefpqS/edit?usp=sharing&ouid=111283954640949298603&rtpof=true&sd=true",
+    url: "https://drive.google.com/drive/folders/1BjRWcZQ3lOQl4ry1Pu16Oteu2tkXGZo9?usp=drive_link",
     date: "2 Januari 2026",
     highlight: true
   },
@@ -106,6 +106,7 @@ document.addEventListener('DOMContentLoaded', renderMenu);
 
 // Optional: real-time search saat mengetik
 document.getElementById('menuSearch').addEventListener('input', searchMenu);
+
 
 
 
